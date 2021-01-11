@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelkuy</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.min.css">
+    <!-- style -->
+    <link rel="stylesheet" href="frontend/styles/main.css">
+    <!-- google fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="frontend/images/logo.svg" alt=""></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto mr-0">
+                    <li class="nav-item">
+                        <a class="nav-link active mr-4" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mr-4" href="#">Paket Travel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mr-4" href="#">Testimoni</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mr-4" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mr-4" href="#">FAQ</a>
+                    </li>
+                </ul>
+                <form class="form-inline d-sm-block d-md-none">
+                    <button class="btn btn-login my-2 my-sm-0">
+                        Login
+                    </button>
+                </form>
+                <!-- Desktop Button -->
+                <form class="form-inline my-2 my-lg-0 d-none d-md-block">
+                    <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+                        Login
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- FAQ -->
+    <div class="container" style="margin-top: 120px;">
+        <h1 class="text-center">Frequently Asked Questions</h1>
+    </div>
+
+    <section class="faq">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                    <div class="accordion" id="accordionExample">
+                        <div class="card shadow-lg">
+                            <div class="card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                                        data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Bagaimana cara memesan paket travel ?
+                                    </button>
+                                </h2>
+                            </div>
+    
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    untuk memesan paket travel anda di wajibkan melakukan registrasi menggunakan akun email anda, lalu setelah itu anda dapat memilih paket travel yang akan anda beli di bagian paket travel di halaman utama dan mengikuti proses checkout.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        Bagaimana cara melakukan pembayaran ?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                   untuk melakukan pembayaran anda dapat mengkonfirmasi pesanan anda lalu kemudian anda dapat melakukan pembayaran ke rekening yang terdapat dalam halaman checkout.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        apakah pembayaran sudah termasuk akomodasi penunjang seperti makan dan lain-lain ?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    pembayaran yang anda lakukan sudah termasuk akomodari penunjang seperti transport, makan, hotel dan tempat wisata.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- akhir FAQ -->
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-3">
+                    <h5 class="mb-4">FEATURES</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#">Reviews</a>
+                        </li>
+                        <li>
+                            <a href="#">Community</a>
+                        </li>
+                        <li>
+                            <a href="#">Social Media Kit</a>
+                        </li>
+                        <li>
+                            <a href="#">Affiliate</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <h5 class="mb-4">ACCOUNT</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#">Refund</a>
+                        </li>
+                        <li>
+                            <a href="#">Security</a>
+                        </li>
+                        <li>
+                            <a href="#">Reward</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <h5 class="mb-4">COMPANY</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#">Help Center</a>
+                        </li>
+                        <li>
+                            <a href="#">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <h5 class="mb-4">FOLLOW US</h5>
+                    <div class="row">
+                        <div class="col">
+                            <a href=""><img src="frontend/images/icon/instagram.svg" alt=""></a>
+                        </div>
+                        <div class="col">
+                            <a href=""><img src="frontend/images/icon/twitter.svg" alt=""></a>
+                        </div>
+                        <div class="col">
+                            <a href=""><img src="frontend/images/icon/facebook.svg" alt=""></a>
+                        </div>
+                        <div class="col">
+                            <img href=""><img src="frontend/images/icon/linkedin.svg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row border-top justify-content-center align-items-center p-4 mt-4">
+                <div class="col-auto text-gray-500 font-weight-light">
+                    2020 Copyright PT Travelkuy Indonesia • All rights reserved • Made in Jakarta
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- akhir footer -->
+
+
+    <!-- jquery -->
+    <script src="frontend/libraries/jquery/jquery-3.4.1.min.js"></script>
+    <!-- bootstrap -->
+    <script src="frontend/libraries/bootstrap/js/bootstrap.min.js"></script>
+    <!-- retina -->
+    <script src="frontend/libraries/retina/retina.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 50) {
+                    $('.navbar').css('box-shadow', '0px 4px 4px rgba(0, 0, 0, 0.10)');
+                } else {
+                    $('.navbar').css('box-shadow', 'none');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

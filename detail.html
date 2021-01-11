@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.min.css">
+    <!-- style -->
+    <link rel="stylesheet" href="frontend/styles/main.css">
+    <!-- google fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- xzoom -->
+    <link rel="stylesheet" href="frontend/libraries/xzoom/dist/xzoom.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="frontend/images/logo.svg" alt=""></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto mr-0">
+                    <li class="nav-item">
+                        <a class="nav-link active mr-4" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mr-4" href="#">Paket Travel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mr-4" href="#">Testimoni</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mr-4" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mr-4" href="#">FAQ</a>
+                    </li>
+                </ul>
+                <form class="form-inline d-sm-block d-md-none">
+                    <button class="btn btn-login my-2 my-sm-0">
+                        Login
+                    </button>
+                </form>
+                <!-- Desktop Button -->
+                <form class="form-inline my-2 my-lg-0 d-none d-md-block">
+                    <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+                        Login
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- content -->
+    <main>
+        <section class="section-detail mb-5">
+            <div class="container">
+                <!-- breadcrumb -->
+                <div class="row pl-2">
+                    <div class="col">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item"><a href="#">Paket Travel</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Detail</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+                <!-- akhir breadcrumb -->
+                <div class="row pl-2">
+                    <div class="col-lg-6">
+                        <div class="card gallery shadow-sm mb-4">
+                            <div class="xzoom-container">
+                                <img class="xzoom" id="xzoom-default" src="frontend/images/exclusive/details-1.jpg"
+                                    xoriginal="frontend/images/exclusive/details-1.jpg" />
+                                <div class="xzoom-thumbs d-flex justify-content-around">
+                                    <a href="frontend/images/exclusive/details-1.jpg"><img class="xzoom-gallery"
+                                            width="100" src="frontend/images/exclusive/details-1.jpg"
+                                            xpreview="frontend/images/exclusive/details-1.jpg" /></a>
+                                    <a href="frontend/images/exclusive/1.jpg"><img class="xzoom-gallery" width="100"
+                                            src="frontend/images/exclusive/1.jpg"
+                                            xpreview="frontend/images/exclusive/1.jpg" /></a>
+                                    <a href="frontend/images/exclusive/1.jpg"><img class="xzoom-gallery" width="100"
+                                            src="frontend/images/exclusive/1.jpg"
+                                            xpreview="frontend/images/exclusive/1.jpg" /></a>
+                                    <a href="frontend/images/exclusive/1.jpg"><img class="xzoom-gallery" width="100"
+                                            src="frontend/images/exclusive/1.jpg"
+                                            xpreview="frontend/images/exclusive/1.jpg" /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-detail">
+                        <div class="card border-0">
+                            <h1>Taman Wisata Gunung Bromo</h1>
+                            <p><i class="fas fa-map-marker-alt mr-1"></i>Malang - Jawa Timur, Indonesia</p>
+                            <hr>
+                            <h2>Deskripsi</h2>
+                            <p class="mt-2 text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Sapiente cum ad
+                                hic architecto quos blanditiis. Pariatur omnis delectus repellendus autem illo! Ratione
+                                quidem earum doloremque ipsam saepe inventore maiores placeat?
+                                Fuga, qui illo reprehenderit, quis doloremque natus earum, corrupti quasi quidem iure
+                                vel quas voluptates ratione! Iusto aperiam voluptatem nesciunt asperiores quidem
+                                voluptates error porro minima, dignissimos rerum reiciendis sunt.
+                                Harum voluptatem rem dignissimos similique dicta deserunt ab aliquid ipsum perspiciatis
+                                vero error illum, quo esse modi, doloribus, consequatur cupiditate quae tempore!
+                                Tenetur, corrupti soluta? Iste sint maiores atque rem.</p>
+                            <hr>
+                            <h2 class="mb-3">Includes</h1>
+                                <div class="row includes">
+                                    <div class="col pt-2 pb-2 d-flex align-items-center">
+                                        <img src="frontend/images/icon/ic_foods.svg" alt="">
+                                        <div class="text pl-2">
+                                            <h4 class="d-inline m-0">Makan</h4>
+                                            <!-- <p class="m-0">Pagi, Siang, Malam</p> -->
+                                        </div>
+                                    </div>
+                                    <div class="col pt-2 pb-2 d-flex align-items-center">
+                                        <img src="frontend/images/icon/ic_hotel.svg" alt="">
+                                        <div class="text pl-2">
+                                            <h4 class="d-inline m-0">Hotel</h4>
+                                            <!-- <p class="m-0">Pagi, Siang, Malam</p> -->
+                                        </div>
+                                    </div>
+                                    <div class="col pt-2 pb-2 d-flex align-items-center">
+                                        <img src="frontend/images/icon/ic_event.svg" alt="">
+                                        <div class="text mx-auto text-center text-lg-left">
+                                            <h4 class="d-inline m-0">Tiket Wisata</h4>
+                                            <!-- <p class="m-0">Pagi, Siang, Malam</p> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <h2 class="mb-3 pl-1">informasi trip</h2>
+                                <table class="trip-informations" cellpadding="5">
+                                    <tr>
+                                        <th width="60%">Tanggal Keberangkatan</th>
+                                        <td width="40%" class="text-right">22 Aug, 2019</td>
+                                    </tr>
+                                    <tr>
+                                        <th width="50%">Durasi</th>
+                                        <td width="50%" class="text-right">4 Hari 3 Malam</td>
+                                    </tr>
+                                    <tr>
+                                        <th width="50%">Type</th>
+                                        <td width="50%" class="text-right">Open Trip</td>
+                                    </tr>
+                                    <tr>
+                                        <th width="50%">Harga</th>
+                                        <td width="50%" class="text-right">Rp. 1500000/Org</td>
+                                    </tr>
+                                </table>
+                        </div>
+                        <div class="join-container mb-3">
+                            <a href="#" class="btn btn-block btn-join-now mt-3 py-2">Join Kuy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-3">
+                    <h5 class="mb-4">FEATURES</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#">Reviews</a>
+                        </li>
+                        <li>
+                            <a href="#">Community</a>
+                        </li>
+                        <li>
+                            <a href="#">Social Media Kit</a>
+                        </li>
+                        <li>
+                            <a href="#">Affiliate</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <h5 class="mb-4">ACCOUNT</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#">Refund</a>
+                        </li>
+                        <li>
+                            <a href="#">Security</a>
+                        </li>
+                        <li>
+                            <a href="#">Reward</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <h5 class="mb-4">COMPANY</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#">Help Center</a>
+                        </li>
+                        <li>
+                            <a href="#">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <h5 class="mb-4">FOLLOW US</h5>
+                    <div class="row">
+                        <div class="col">
+                            <a href=""><img src="frontend/images/icon/instagram.svg" alt=""></a>
+                        </div>
+                        <div class="col">
+                            <a href=""><img src="frontend/images/icon/twitter.svg" alt=""></a>
+                        </div>
+                        <div class="col">
+                            <a href=""><img src="frontend/images/icon/facebook.svg" alt=""></a>
+                        </div>
+                        <div class="col">
+                            <a href=""><img href=""><img src="frontend/images/icon/linkedin.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row border-top justify-content-center align-items-center p-4">
+                <div class="col-auto text-gray-500 font-weight-light">
+                    2020 Copyright PT Travelkuy Indonesia • All rights reserved • Made in Jakarta
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </footer>
+    <!-- akhir footer -->
+
+
+
+    <!-- jquery -->
+    <script src="frontend/libraries/jquery/jquery-3.4.1.min.js"></script>
+    <!-- bootstrap -->
+    <script src="frontend/libraries/bootstrap/js/bootstrap.min.js"></script>
+    <!-- retina -->
+    <script src="frontend/libraries/retina/retina.min.js"></script>
+    <!-- navbar scroll shadow -->
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 50) {
+                    $('.navbar').css('box-shadow', '0px 4px 4px rgba(0, 0, 0, 0.10)');
+                } else {
+                    $('.navbar').css('box-shadow', 'none');
+                }
+            });
+        });
+    </script>
+    <!-- xzoom -->
+    <script src="frontend/libraries/xzoom/dist/xzoom.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.xzoom, .xzoom-gallery').xzoom({
+                zoomWidth: 500,
+                title: false,
+                tint: '#333',
+                Xoffset: 15
+            });
+        });
+    </script>
+</body>
+
+</html>
