@@ -3,9 +3,10 @@ $secondary:#FBFBFB;
 
 
 // index.html
-body {
+body, html {
     font-family: "Poppins", sans-serif;
     color: #000000;
+    scroll-behavior: smooth !important;
 }
 
 //navbar 
